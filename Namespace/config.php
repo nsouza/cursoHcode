@@ -2,9 +2,7 @@
 
 spl_autoload_register(function($nameClass){
 
-   var_dump($nameClass);
-
-    $dirClass = "class";
+    $dirClass = "Class";
     $filename = $dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php";
 
 

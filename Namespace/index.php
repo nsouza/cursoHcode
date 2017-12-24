@@ -2,7 +2,7 @@
 
 require_once("config.php");
 
-use cliente\Cadastro;
+use Cliente\Cadastro;
 
 $cad = new Cadastro();
 
